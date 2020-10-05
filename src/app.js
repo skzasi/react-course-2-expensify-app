@@ -9,10 +9,12 @@ import configureStore from './store/configureStore';
 import './styles/styles.scss';
 import 'normalize.css/normalize.css';
 import 'react-dates/lib/css/_datepicker.css';
+import './firebase/firebase';
+
 
 const store = configureStore();
 
-console.log('test');
+// console.log('test');
 
 // store.dispatch(addExpense({ description: 'Water Bill', amount: 500}));
 // store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1000}));
